@@ -27,7 +27,7 @@ touch server.js
 code .
 In ./server.js, add the following code
 // Require express
-const express = require('express')
+const express = require('express') 
 // Initialize express
 const app = express()
  const PORT=5000
@@ -63,12 +63,3 @@ db.on('connected', (err, res) => {
   console.log('Connected to database')
 })```
 
-
-
-Import `./db.js` to `./server.js`
-
-
-```javascript
-   const express= require('express')const app = express()
-   const db = require('./db')
-   ...
